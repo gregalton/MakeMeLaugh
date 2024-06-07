@@ -20,6 +20,7 @@
 		9879743D2C11EA6F008B7481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		987974402C11EA6F008B7481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		987974422C11EA6F008B7481 /* MakeMeLaugh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MakeMeLaugh.entitlements; sourceTree = "<group>"; };
+		987974482C11EDDE008B7481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		987974382C11EA6E008B7481 /* MakeMeLaugh */ = {
 			isa = PBXGroup;
 			children = (
+				987974482C11EDDE008B7481 /* Info.plist */,
 				987974392C11EA6E008B7481 /* MakeMeLaughApp.swift */,
 				9879743B2C11EA6E008B7481 /* ContentView.swift */,
 				9879743D2C11EA6F008B7481 /* Assets.xcassets */,
@@ -279,6 +281,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakeMeLaugh/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +309,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakeMeLaugh/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
